@@ -1,0 +1,66 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Stackfindover: Sign in</title>
+  <link rel="stylesheet" type="text/css" href="../style/sinup.css">
+</head>
+
+<body>
+  
+      <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+        <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+        
+        </div>
+        <div class="formbg-outer">
+          <div class="formbg">
+            <div class="formbg-inner padding-horizontal--48">
+          
+              <form  action="loginsuccess.html">
+               
+                <div class="field padding-bottom--24">
+                  <label for="email">Email</label>
+                  <input id="email" name="email">
+                  <span id="err2"></span>
+                </div>
+                <div class="field padding-bottom--24">
+                  <label >Phone Number</label>
+                  <input id="phone" name="phone">
+                  <span id="err3"></span>
+                </div>
+                <div class="field padding-bottom--24">
+                  <div class="grid--50-50">
+                    <label for="password">Password</label>
+                  
+                  </div>
+                  <input id="pass" name="password">
+                  <span id="err4"></span>
+                </div>
+               
+                <div class="field padding-bottom--24">
+                  <div class="grid--50-50">
+                   
+                  
+                  </div>
+                
+                </div>
+               
+                <div class="field padding-bottom--24">
+                  <input onclick="return validate()" type="submit" name="submit" value="signin">
+                </div>
+               
+              </form>
+      
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="../script/login.js"></script>
+</body>
+
+</html>
